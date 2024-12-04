@@ -48,10 +48,6 @@ st.write("Enter a description of the Python application or code you need. CodeLl
 # Input box for the user to enter a description
 description = st.text_area("Application or Code Description", placeholder="Describe the application or code you want")
 
-# You can also use "with" notation:
->>> with tab1:
->>>   st.radio('Select one:', [1, 2])
-
 # Button to trigger code generation
 if st.button("Generate Code"):
     if description.strip():
